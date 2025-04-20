@@ -13,10 +13,10 @@ function setupVideoMask(maskId, videoSrc) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    setupVideoMask('video1', '../video/video.mp4');
-    setupVideoMask('video2', '../video/video.mp4');
-    setupVideoMask('video3', '../video/video.mp4');
-    setupVideoMask('video4', '../video/video.mp4');
+    setupVideoMask('video1', 'video/video.mp4');
+    setupVideoMask('video2', 'video/video.mp4');
+    setupVideoMask('video3', 'video/video.mp4');
+    setupVideoMask('video4', 'video/video.mp4');
 
      function updateVideoMasks() {
         const videoMasks = document.querySelectorAll('.video-mask');
